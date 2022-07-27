@@ -1,0 +1,495 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 7rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 2px 2px #827397;
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 1px 1px #827397;
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #fff;
+  text-shadow: 1px 1px #827397;
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+a {
+  font-size: 15px;
+}
+
+em {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+/* Title - Navbar */
+
+.navbar {
+  background-color: #E9D5CA;
+  color: #fff;
+  font-size: 2em;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+/* Introduction */
+
+.introduction {
+  padding: 180px 5%;
+  background-color: #E9D5CA;
+  height: 100vh;
+  text-align: right;
+}
+
+iframe {
+  border-radius: 2%;
+}
+
+/* Projects */
+
+.project-images {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  margin-top: 80px;
+}
+
+#projects {
+  background-color: #827397;
+  text-align: center;
+  color: white;
+  height: 100vh;
+}
+
+.project-heading {
+  padding-top: 100px;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+}
+
+button {
+  font-family: "Ubuntu";
+  margin: 0 6px;
+}
+
+.carousel-item {
+  padding-top: 30px;
+}
+
+.press-images {
+  margin: 20px 20px 50px;
+  height: 10%;
+}
+
+/* Education */
+
+.education {
+  background-color: #4D4C7D;
+  height: 100vh;
+  font-family: "Montserrat";
+}
+
+/* Time Line */
+
+.timeline {
+  width: 60%;
+  padding: 100px 0;
+  margin: auto;
+  color: #E9D5CA;
+}
+
+p.heading {
+  font-size: 2em;
+}
+
+span.sub-heading {
+  font-size: 0.6em;
+}
+
+.timeline h2 {
+  color: #E9D5CA;
+}
+
+.timeline p {
+  border-top: 2px dashed;
+  border-color: #E9D5CA;
+  margin: 0; 
+  padding: 30px;
+}
+
+.timeline p:nth-child(even) {
+  border-left: 6px dashed;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 30px; 
+  padding-right: 0;
+}
+
+.timeline p:nth-child(odd) {
+  border-right: 6px dashed;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 30px; 
+  padding-left: 0;
+  text-align: right;
+}
+
+.timeline p:first-child {
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.timeline p:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Section work */
+
+.work {
+  padding-top: 30px;
+  background-color: #363062;
+  height: 100vh;
+  text-align: center;
+  font-family: "Montserrat";
+  color: #E9D5CA;
+}
+
+.work h2 {
+  color: #E9D5CA;
+  padding-top: 100px;
+}
+
+.card {
+  margin: 20px 0px;
+}
+
+.col {
+  padding-bottom: 20px;
+}
+
+.card-body {
+  margin-bottom: 0px;
+  height: 100%;
+}
+.card-body p {
+  color: #363062;
+}
+
+.card-body a {
+  color: #363062;
+  text-decoration: none;
+}
+
+.card-title {
+  color: #363062;
+}
+
+.card-text {
+  color: #363062;
+  text-align: left;
+}
+
+.modal-title {
+  color: #363062;
+}
+
+.modal-body {
+  text-align: left;
+  color: #363062;
+}
+
+/* Contact Me */
+
+.contact {
+  padding: 100px 7%;
+  margin: 0px;
+  background-color: #212529;
+  height: 91vh;
+  width: 100%;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.portrait-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.contact .col {
+  color: #E9D5CA;
+}
+
+.contact h2 {
+  padding-top: 100px;
+  padding-bottom: 0px;
+  color: #E9D5CA;
+}
+
+i {
+  color: #E9D5CA;
+}
+
+.social-media {
+  padding-bottom: 30px;
+}
+
+.about {
+  text-align: justify;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.copyright {
+  color: #E9D5CA;
+  padding-top: 100px;
+}
+
+/********* @media section **********/
+@media only screen and (max-width: 1180px),
+            screen and (max-height: 900px) {
+  
+  .introduction {
+    padding: 80px 5%;
+    background-color: #E9D5CA;
+    height: 100%;
+    text-align: center;
+  }
+
+  iframe {
+    margin-top: 30px;
+    width: 400px;
+    height: 370px;
+    border-radius: 2%;
+  }
+
+  em {
+    font-size: 1.6rem;
+  }
+
+  #projects {
+    background-color: #827397;
+    text-align: center;
+    color: white;
+    height: 100%;
+  }
+
+  .carousel-item h2 {
+    font-size: 1.3rem;
+  }
+
+  .press-images {
+    margin: 20px 20px 50px;
+    height: 100px;
+  }
+
+  .education {
+    background-color: #4D4C7D;
+    height: 100%;
+    font-size: 0.8rem;
+  }
+
+  .education-heading {
+    font-size: 2rem;;
+  }
+
+  .work {
+    padding: 20px 0px;
+    background-color: #363062;
+    height: 100%;
+    text-align: center;
+    color: #E9D5CA;
+  }
+
+  .work h2 {
+    font-size: 2rem;
+  }
+
+  .card {
+    margin: 20px 0px;
+  }
+
+  .contact {
+    background-color: #212529;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .copyright {
+    padding-top: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  .navbar {
+    background-color: #E9D5CA;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .introduction h1 {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 2px 2px #363062;
+  }
+  
+  .introduction h2 {
+    color: #fff;
+    text-shadow: 1px 1px #363062;
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+
+  h2 {
+    color: #fff;
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+
+  iframe {
+    margin-top: 20px;
+    width: 200px;
+    height: 170px;
+    border-radius: 2%;
+  }
+
+  em {
+    font-size: 1.5rem;
+  }
+
+  .project-heading {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 100px;
+  }
+
+  .card-title {
+    font-size: 15px;
+  }
+
+  .card-subtitle {
+    font-size: 15px;
+  }
+
+  .card-text {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .navbar {
+    background-color: #E9D5CA;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .introduction h1 {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 2px 2px #363062;
+  }
+  
+  .introduction h2 {
+    color: #fff;
+    text-shadow: 1px 1px #363062;
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+
+  h2 {
+    color: #fff;
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+
+  iframe {
+    margin-top: 20px;
+    width: 200px;
+    height: 170px;
+    border-radius: 2%;
+  }
+
+  em {
+    font-size: 1.5rem;
+  }
+
+  .project-heading {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 100px;
+  }
+
+  .card-title {
+    font-size: 15px;
+  }
+
+  .card-subtitle {
+    font-size: 15px;
+  }
+
+  .card-text {
+    font-size: 15px;
+  }
+}
